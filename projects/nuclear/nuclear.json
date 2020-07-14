@@ -1,0 +1,62 @@
+{
+  "zooniverse_csv_file":      "projects/nuclear/resources/csv/etch-a-cell-classifications-cleaned.csv",
+  "processed_csv_dir":        "projects/nuclear/resources/csv/processed/",
+
+  "images_raw_dir":           "projects/nuclear/resources/images/raw/",
+  "images_raw_stack_dir":     "projects/nuclear/resources/images/raw-stacks/",
+  "images_raw_labels_dir":    "projects/nuclear/resources/images/raw-labels/",
+
+  "scaled_images_dir":        "projects/nuclear/resources/images/scaled/",
+  "scaled_labels_dir":        "projects/nuclear/resources/images/scaled-labels/",
+  "scaled_image_stacks_dir":  "projects/nuclear/resources/images/scaled-stacks/",
+  "scaled_label_stacks_dir":  "projects/nuclear/resources/images/scaled-labels-stacks/",
+
+  "cropped_images_dir":       "projects/nuclear/resources/images/cropped/",
+  "cropped_labels_dir":       "projects/nuclear/resources/images/cropped-labels/",
+  "cropped_image_stacks_dir": "projects/nuclear/resources/images/cropped-stacks/",
+  "cropped_label_stacks_dir": "projects/nuclear/resources/images/cropped-labels-stacks/",
+
+  "zooniverse_workflow":      "Going Nuclear",
+  "raw_image_extension":      ".tiff",
+  "aggregation_method":       "interiors-contours",
+  "target_xy_nm":             50,
+  "target_z_nm":              50,
+
+  "crop_padding":             50,
+
+  "border_width_nm":          70,
+
+  "ref_images": {
+    "z_offset": 1,
+    "zoom_factor": 2,
+    "target_width": 2000,
+    "target_height": 2000
+  },
+
+  "model": {
+    "save_dir": "projects/nuclear/models/",
+    "layers": 4,
+    "patch_shape": [12, 256, 256],
+    "start_ch": 32,
+    "dropout": 0.3,
+    "batch_size": 12,
+    "epochs": 100,
+    "steps_per_epoch": 100,
+    "init_learning_rate": 0.0005
+  },
+  "data": {
+    "training_rois": "*",
+    "validation_rois": ["ROI_2052-5784-112", "ROI_3588-3972-1"],
+    "holdout_rois":    ["ROI_1656-6756-329", "ROI_3624-2712-201", "ROI_1716-7800-517"],
+    "images_dir":      "projects/nuclear/resources/images/cropped-stacks/",
+    "labels_dir":      "projects/nuclear/resources/images/cropped-labels-stacks/"
+  },
+  "data_augmentation": {
+    "rotation_range": 0,
+    "zoom_range": 0.05,
+    "contrast_range": 0.1,
+    "brightness_range": 0.1,
+    "blur_range": 0.2,
+    "noise": 12
+  }
+}

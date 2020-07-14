@@ -1,0 +1,7 @@
+__pycache__/
+venv/
+.venv/
+.idea/
+resources/*
+projects/*/resources/*
+*.hdf5

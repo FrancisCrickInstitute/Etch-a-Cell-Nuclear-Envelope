@@ -17,7 +17,7 @@ Commercial licenses are available from The Francis Crick Institute under a Comme
 CRICK Non-commercial Licence Agreement v 2.0.
 ___
 
-**This Agreement is made by and between the Licensor and the Licensee as defined and identified below. **
+**This Agreement is made by and between the Licensor and the Licensee as defined and identified below.**
 
 **1. Definitions**
 

@@ -8,7 +8,7 @@ All files in this distribution are part of Etch A Cell: Nuclear Envelope.
 
 Etch A Cell: Nuclear Envelope is available here: https://github.com/FrancisCrickInstitute/Etch-a-Cell-Nuclear-Envelope
 
-Etch A Cell: Nuclear Envelopeis distributed under the terms of the CRICK Non-commercial Licence Agreement v 2.0.
+Etch A Cell: Nuclear Envelope is distributed under the terms of the CRICK Non-commercial Licence Agreement v 2.0.
 
 The CRICK Non-commercial Licence Agreement v 2.0. is a free of charge license that grants not-for-profit organisation (e.g., charities, universities, research institutes, hospitals) the right to use and/or modify Etch A Cell: Nuclear Envelope for educational, research or evaluation purposes only and prohibits any commercial use.
 

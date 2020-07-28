@@ -2,8 +2,6 @@
 
 ![](predict-nuclear-membrane.gif)
 
-## TODO: publication/license etc.
-
 #### Requirements
 An Nvidia GPU with at least 16GB RAM and drivers installed.  
 Docker version 19+
@@ -75,7 +73,7 @@ poor attempts. We have seen that making the effort to aggregate raw annotations
 before passing to the model significantly improves performance. While several
 methods were developed, the following was found particularly effective. 
 
-###### Contours - interiors - contours
+###### Contour Regression by Interior Averages (CRIA)
 Stitch together line segments to produce closed loops. All annotations are then
 simply added and normalised. The average number of annotations is used as a
 threshold to define the edge of the average interiors. This edge is used to extract

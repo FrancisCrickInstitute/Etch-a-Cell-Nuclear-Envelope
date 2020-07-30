@@ -94,3 +94,5 @@ size. Larger patch sizes tend to produce better results, having access to more
 information and context. But they are also slower to train and, if too large, would
 mean that certain image stacks are too small to be fed to the model.
 
+#### Paper
+https://doi.org/10.1101/2020.07.28.223024

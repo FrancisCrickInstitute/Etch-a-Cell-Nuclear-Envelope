@@ -77,7 +77,7 @@ The Software, all Derivative Works, and the accompanying documentation are licen
 
 The Licensee agrees to acknowledge the Etch A Cell: Nuclear Envelope research project with appropriate citations in any publication or presentation containing research results obtained in whole or in part through the use of the Software. Specifically, the Licensee agrees to cite:
 
-[REFERENCE]
+https://doi.org/10.1101/2020.07.28.223024
 
 **10. Governing Law**
 

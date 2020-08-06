@@ -60,11 +60,6 @@ citizen scientists drew on top of them must be converted in to x/y training data
 for the model. These x/y pairs are image stacks that can easily be loaded as
 numerical arrays at training time.
 
-Once the preprocessing steps are complete, there should exist correctly formatted
-image stacks for both the reference images, and the labels. Training can then be
-undertaken locally as part of the pipeline or separately in the cloud. On a TPU
-one can expect the algorithm to start to converge within a day or so or training.
-
 #### Approaches to aggregation
 Among preprocessing steps, the most unique to the current situation is the need to
 filter or average over the available citizen scientist annotations. For example

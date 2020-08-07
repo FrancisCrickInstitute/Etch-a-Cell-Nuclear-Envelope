@@ -64,24 +64,24 @@ then
   echo '> Downloading reference EM image stacks.'
   mkdir "projects/nuclear/resources/images/raw-stacks/"
   cd "projects/nuclear/resources/images/raw-stacks/"
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21237351?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21237354?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21237357?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21237360?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21237363?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21237366?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21237714?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21238497?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21238953?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21238956?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21238962?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21238989?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21238992?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21238995?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21238998?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21239001?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21239010?private_link=03f5e22febd6495904ba
-  wget -q --show-progress --content-disposition https://ndownloader.figshare.com/files/21239016?private_link=03f5e22febd6495904ba
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_1416-1932-171.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_1536-3456-213.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_1584-6996-1.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_1608-912-1.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_1656-6756-329.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_1716-7800-517.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_2052-5784-112.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_2448-4704-271.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_2820-6780-468.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_2832-1692-1.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_3000-3264-393.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_3516-5712-314.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_3576-5232-35.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_3588-3972-1.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_3624-2712-201.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_3768-7248-143.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_3972-1956-438.tiff
+  wget -q --show-progress --content-disposition ftp://ftp.ebi.ac.uk/empiar/world_availability/10478/data/ROIs/ROI_4320-1260-95.tiff
   cd "../../../../../"
 else
   echo '> EM image stack folder already exists, not redownloading.'
